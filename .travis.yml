@@ -28,7 +28,7 @@ install:
     - composer info -i
 
 script:
-  - phpunit --exclude-group=none
+  - phpunit
 
 branches:
   only:

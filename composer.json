@@ -2,6 +2,8 @@
     "name": "easelab/broadway-extensions",
     "description": "Extensions for broadway cqrs infrastructure library",
     "keywords": ["cqrs", "event sourcing", "domain-driven design", "ddd"],
+    "homepage": "https://github.com/easelaboratory/broadway-extensions",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
@@ -10,10 +12,12 @@
     "authors": [
       {
         "name": "Francesco Trucchia",
-        "email": "francesco@trucchia.it"
+        "email": "francesco@trucchia.it",
+        "homepage": "http://www.trucchia.it"
       },
       {
         "name": "soisy.it",
+        "email": "info@soisy.it",
         "homepage": "http://www.soisy.it"
       }
     ],
@@ -21,7 +25,6 @@
         "phpunit/phpunit": "^4.8"
     },
     "suggest": {
-        "psr/log-implementation": "Implementation for PSR3, LoggerInterface",
         "broadway/event-store-dbal": "Event store implementation using doctrine/dbal",
         "broadway/read-model-elasticsearch": "Elasticsearch read model implementation",
         "broadway/broadway-saga": "Saga component for Broadway",
