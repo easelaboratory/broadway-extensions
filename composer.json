@@ -1,8 +1,8 @@
 {
-    "name": "easelab/broadway-extensions",
+    "name": "francescotrucchia/broadway-extensions",
     "description": "Extensions for broadway cqrs infrastructure library",
     "keywords": ["cqrs", "event sourcing", "domain-driven design", "ddd"],
-    "homepage": "https://github.com/easelaboratory/broadway-extensions",
+    "homepage": "https://github.com/francescotrucchia/broadway-extensions",
     "type": "library",
     "license": "MIT",
     "require": {
