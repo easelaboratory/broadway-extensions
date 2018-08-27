@@ -13,12 +13,7 @@
       {
         "name": "Francesco Trucchia",
         "email": "francesco@trucchia.it",
-        "homepage": "http://www.trucchia.it"
-      },
-      {
-        "name": "soisy.it",
-        "email": "info@soisy.it",
-        "homepage": "http://www.soisy.it"
+        "homepage": "http://www.francescotrucchia.it"
       }
     ],
     "require-dev": {
