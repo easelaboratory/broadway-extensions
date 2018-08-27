@@ -64,7 +64,9 @@ abstract class FairyDomainEvent implements Serializable
     }
 
     /**
-     * @return mixed The object instance
+     * @param array $data
+     * @return mixed|object
+     * @throws \ReflectionException
      */
     public static function deserialize(array $data)
     {
@@ -101,7 +103,7 @@ abstract class FairyDomainEvent implements Serializable
      * @return array
      * @throws \UnexpectedValueException
      */
-    public function serialize()
+    public function serialize(): array
     {
         $data = [];
         foreach ($this->payload as $key => $value) {
